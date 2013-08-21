@@ -1773,4 +1773,8 @@ public class DialpadFragment extends Fragment
     public static int getDigitsCurrentLength() {
         return mDigits.getText().toString().replace("-", "").replace("(", "").replace(")", "").replace("+", "").replace("*", "").replace("#", "").length();
     }
+
+    public static String getDigitsTest() {
+        return mDigits.getText().toString().replace("-", "").replace("(", "").replace(")", "").replace("+", "").replace("*", "").replace("#", "");
+    }
 }
